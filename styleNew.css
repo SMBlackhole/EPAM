@@ -1,0 +1,76 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,
+    acronym,address,big,cite,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,
+    tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,
+    tbody,tfoot,thead,tr,th,td {
+    background:transparent;border:0;margin:0;padding:0;vertical-align:baseline}
+      ul {
+        display: flex;
+        justify-content: space-around;
+        list-style:none
+        }
+      body {
+        margin: 20px 20% 0; 
+        background-color: #ffffff;
+        padding: 40px 20px; 
+        line-height: 1.5;
+        font-family:Georgia,"Bitstream Charter",serif
+      }
+      /*.content {
+        padding: 20px; padding-top: 40px;
+        line-height: 1.5;
+      }*/
+      .logo {
+        display: flex;
+        justify-content: space-around;
+      }
+      h2, h3, h4, h5, h6 {
+        line-height: 3;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid grey;  
+      }
+      th,td {
+        border: 1px solid grey;
+        padding: 10px 15px;
+      }
+      thead td {
+        color: grey;
+      }
+      caption {
+        caption-side: top;
+        text-align: left;
+        padding: 10px 0;
+        font-size: 14px;
+      }
+      html, pre, code, form input, textarea {
+        background-color: #f1f1f1; 
+      }
+
+      form input {
+        border-style: inset;
+      }
+      
+      footer {
+        background-color: #dedede;
+        height: 150px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      label {
+        padding-bottom: 20px;
+      }
+
+       input {
+        padding-left: 5px;
+       }
